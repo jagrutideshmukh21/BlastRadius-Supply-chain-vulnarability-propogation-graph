@@ -1,0 +1,2 @@
+[tool.vercel]
+entrypoint = "blastradius.api.main:app"
