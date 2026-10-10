@@ -1,0 +1,7 @@
+{
+  "name": "cli-tooling",
+  "version": "0.9.5",
+  "dependencies": {
+    "glob-parent": "4.3.0"
+  }
+}

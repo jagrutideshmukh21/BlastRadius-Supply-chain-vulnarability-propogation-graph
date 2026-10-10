@@ -1,0 +1,8 @@
+{
+  "name": "test-helpers",
+  "version": "1.0.1",
+  "dependencies": {},
+  "devDependencies": {
+    "semver": "7.5.1"
+  }
+}

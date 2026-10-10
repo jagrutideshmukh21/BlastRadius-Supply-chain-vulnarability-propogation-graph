@@ -1,0 +1,40 @@
+{
+  "url": "https://api.osv.dev/v1/vulns/GHSA-jvfv-7rvx-43m5",
+  "fetched_at": "2026-10-09T10:53:03.547418+00:00",
+  "sha256": "435181be1696fef48a5551809fe3bb4e7f26aa9bf7af4eac0465daa694d23d7d",
+  "data": {
+    "id": "GHSA-jvfv-7rvx-43m5",
+    "aliases": [
+      "CVE-2019-10744"
+    ],
+    "summary": "Prototype Pollution in lodash",
+    "severity": [
+      {
+        "type": "CVSS_V3",
+        "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+      }
+    ],
+    "published": "2019-07-26T00:00:00Z",
+    "affected": [
+      {
+        "package": {
+          "name": "lodash",
+          "ecosystem": "npm"
+        },
+        "ranges": [
+          {
+            "type": "SEMVER",
+            "events": [
+              {
+                "introduced": "0"
+              },
+              {
+                "fixed": "4.17.21"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

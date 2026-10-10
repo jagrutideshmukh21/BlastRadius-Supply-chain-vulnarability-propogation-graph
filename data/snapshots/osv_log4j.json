@@ -1,0 +1,42 @@
+{
+  "url": "https://api.osv.dev/v1/vulns/GHSA-jfh8-c2jp-hdph",
+  "fetched_at": "2026-10-09T10:53:03.547418+00:00",
+  "sha256": "5933b56288d9d3d766df95e1185242e0986264a5b5bcbaa0d6a0e685937a07b1",
+  "data": {
+    "id": "GHSA-jfh8-c2jp-hdph",
+    "aliases": [
+      "CVE-2021-44228"
+    ],
+    "summary": "Remote code execution in Apache Log4j2",
+    "details": "Apache Log4j2 JNDI features used in configuration, log messages, and parameters do not protect against attacker controlled LDAP and other JNDI endpoints.",
+    "severity": [
+      {
+        "type": "CVSS_V3",
+        "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H"
+      }
+    ],
+    "published": "2021-12-10T17:15:00Z",
+    "modified": "2023-02-03T00:00:00Z",
+    "affected": [
+      {
+        "package": {
+          "name": "log4j-core",
+          "ecosystem": "Maven"
+        },
+        "ranges": [
+          {
+            "type": "ECOSYSTEM",
+            "events": [
+              {
+                "introduced": "2.0-beta9"
+              },
+              {
+                "fixed": "2.17.1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
